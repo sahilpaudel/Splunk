@@ -55,7 +55,7 @@ const login = () => {
     const url = 'https://splunkapi.yodlee.com/services/auth/login';
     const body = {
         username: "spaudel",
-        password: encodeURIComponent("qazxsw@PLOKM567")
+        password: encodeURIComponent("qazxsw@13")
     };
 
     return Axios.post(url, `username=${body.username}&password=${body.password}`, {
